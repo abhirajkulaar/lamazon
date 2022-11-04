@@ -1,0 +1,28 @@
+{
+  "development": {
+    "username": "root",
+    "password": "password",
+    "database": "database_development",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "4kgmmy5bmkaqgwjomd49",
+    "password": "pscale_pw_66zzAUAAdRqJZ3FjR8CQ56Oue5Wr3gdBJo8Vs7ewgvr",
+    "database": "lamazon-db",
+    "host": "us-east.connect.psdb.cloud",
+    "dialect": "mysql",
+    "dialectOptions": {
+      "ssl": {
+        "rejectUnauthorized": true
+      }
+    }
+  }
+}
